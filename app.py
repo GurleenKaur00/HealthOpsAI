@@ -757,21 +757,31 @@ def home_page():
 
         st.write("")
 
-        b1, b2,b3 = st.columns(3)
-
-        with b1:
-            st.button("🚀 Explore Platform", use_container_width=True)
-
-        with b2:
-            st.button("📊 View Features", use_container_width=True)
-        with b3:
-
-            if st.button("ℹ️ About", use_container_width=True):
-
-                st.session_state.page = "about"
-                st.rerun()
-
         st.write("")
+
+        st.markdown(
+        """
+        <div style="
+        background:#E8F3FF;
+        padding:15px;
+        border-radius:12px;
+        border-left:5px solid #1565C0;
+        font-size:17px;
+        color:#333;
+        margin-bottom:15px;
+        ">
+        ℹ️ <b>Want to know more about this project?</b><br>
+        Click the <b>About</b> button below to explore the project overview, workflow, technologies, and implementation details.
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
+        if st.button("ℹ️ About", use_container_width=True):
+            st.session_state.page = "about"
+            st.rerun()
+
+            st.write("")
 
         f1, f2 = st.columns(2)
 

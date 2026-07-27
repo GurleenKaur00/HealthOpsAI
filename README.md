@@ -11,7 +11,9 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Application-red)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
+<a href="https://healthopsaigurleen.streamlit.app">
+<img src="https://img.shields.io/badge/_Live_Demo-Open_Streamlit_App-red?style=for-the-badge">
+</a>
 </p>
 
 ---
@@ -1047,9 +1049,23 @@ The Streamlit application integrates multiple technologies into a single platfor
 
 ---
 
-#  Deployment Highlights
+#  Live Demo
 
-    Deployed on Render
+You can access the deployed Streamlit application here:
+
+** Live Application:**  
+https://healthopsaigurleen.streamlit.app
+
+> **Demo Credentials**
+
+**Doctor Portal**
+- Username: `doctor`
+- Password: `doctor123`
+
+**Health Ministry Portal**
+- Username: `ministry`
+- Password: `ministry123`
+
 ---
 
 #  Business & Social Applications
