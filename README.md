@@ -193,7 +193,7 @@ https://www.kaggle.com/datasets/digutlaranjithkumar/india-hospital-readmission-d
 | Domain | Healthcare |
 | Task | Binary Classification |
 | Target Variable | `readmitted_30d` |
-| Number of Features | *(Update after preprocessing)* |
+| Number of Features | 60 |
 | Dataset Type | Structured Tabular Data |
 | Missing Values | Yes |
 | Numerical Features | Yes |
@@ -341,13 +341,6 @@ Important numerical variables included:
 
 These features were standardized using **StandardScaler** to improve model performance.
 
----
-
-### • Correlation Analysis
-
-Correlation analysis was performed to understand relationships among numerical variables and identify highly correlated features.
-
-The analysis helped verify feature quality while ensuring that redundant information was minimized during model development.
 ---
 
 #  Feature Engineering
@@ -514,7 +507,7 @@ Processed Feature Matrix
 ---
 #  Machine Learning Pipeline
 
-The primary objective of this project is to predict whether a patient will be **readmitted within 30 days** after hospital discharge.
+ The primary objective of this project is to predict whether a patient will be **readmitted within 30 days** after hospital discharge.
 ---
 
 ##  Machine Learning Workflow
@@ -652,7 +645,7 @@ The optimal threshold was selected based on the highest F1 Score observed on the
 ## Threshold Optimization Result
 
 <p align="center">
-<img src="results/threshold_optimization.png" width="850">
+<img src="results/thresholdoptimization.png" width="850">
 </p>
 
 ---
@@ -857,7 +850,7 @@ The dashboard monitors several important healthcare KPIs, including:
 ---
 #  Streamlit Web Application
 
-#  Application Architecture
+### Application Architecture
 
 ```mermaid
 flowchart TD
@@ -1056,7 +1049,7 @@ The Streamlit application integrates multiple technologies into a single platfor
 
 #  Deployment Highlights
 
-Deployed on Render
+    Deployed on Render
 ---
 
 #  Business & Social Applications
