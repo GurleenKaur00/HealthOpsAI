@@ -1,26 +1,23 @@
+# Ignore raw datasets
+data/raw/
+
+# Ignore databases (optional)
+*.db
+
+# Ignore virtual environments
+healthvenv/
+venv/
+
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual Environment
-venv/
-healthvenv/
-env/
-
-# Jupyter
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
 # VS Code
 .vscode/
 
-# OS Files
+# OS files
 .DS_Store
 Thumbs.db
-
-# Streamlit
-.streamlit/secrets.toml
-
-# Model cache
-*.joblib
