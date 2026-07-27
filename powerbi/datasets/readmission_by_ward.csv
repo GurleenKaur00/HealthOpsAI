@@ -1,0 +1,5 @@
+ward_type,Total_Admissions,Readmitted_Patients,Readmission_Rate
+ICU,20833,4950,23.76
+NICU,6492,1078,16.61
+HDU,15907,2117,13.31
+General,76768,6065,7.9

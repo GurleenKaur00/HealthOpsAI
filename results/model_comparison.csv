@@ -1,0 +1,8 @@
+Model,Accuracy,Precision,Recall,F1 Score,ROC AUC
+Logistic Regression,0.884,0.6183,0.0524,0.0967,0.7487
+Random Forest,0.8739,0.4245,0.183,0.2557,0.7295
+XGBoost,0.7319,0.245,0.6073,0.3491,0.7411
+LightGBM,0.715,0.2382,0.64,0.3472,0.7438
+Tuned LightGBM,0.8,0.2923,0.4849,0.3647,0.7459
+Final LightGBM (Optimal Threshold),0.8,0.2923,0.4849,0.3647,0.7459
+LightGBM + SMOTE,0.878,0.4596,0.1703,0.2485,0.7397
